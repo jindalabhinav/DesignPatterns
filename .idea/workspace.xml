@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Builder implementation">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/DatabaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderEnhanced/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderEnhanced/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderEnhanced/DatabaseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2UwOgWfgkTIsDoBohsRDak5YmCi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Scaler/LLD/DesignPatterns/src",
+    "last_opened_file_path": "D:/Scaler/LLD/DesignPatterns/src/BuilderEnhanced",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,10 +61,27 @@
       <recent name="Builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Scaler\LLD\DesignPatterns\src\BuilderEnhanced" />
       <recent name="D:\Scaler\LLD\DesignPatterns\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DatabaseTest.testDatabaseBuilder (1)">
+    <configuration name="DatabaseTest.testDatabaseBuilder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BuilderEnhanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BuilderEnhanced" />
+      <option name="MAIN_CLASS_NAME" value="BuilderEnhanced.DatabaseTest" />
+      <option name="METHOD_NAME" value="testDatabaseBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DatabaseTest.testDatabaseBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
@@ -86,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseTest.testDatabaseBuilder (1)" />
         <item itemvalue="JUnit.DatabaseTest.testDatabaseBuilder" />
       </list>
     </recent_temporary>
@@ -99,8 +114,17 @@
       <option name="presentableId" value="Default" />
       <updated>1693847293856</updated>
       <workItem from="1693847297787" duration="6199000" />
-      <workItem from="1694105170876" duration="1767000" />
+      <workItem from="1694105170876" duration="4424000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Builder implementation">
+      <option name="closed" value="true" />
+      <created>1694111301963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694111301963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
