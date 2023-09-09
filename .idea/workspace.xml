@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Builder implementation">
-      <change afterPath="$PROJECT_DIR$/src/BuilderEnhanced/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderEnhanced/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderEnhanced/DatabaseType.java" afterDir="false" />
+    <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Prototype/BackgroundObjectRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/BackgroundObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/BackgrountObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/GraphicalObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderEnhanced/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/BuilderEnhanced/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderEnhanced/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/BuilderEnhanced/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderEnhanced/DatabaseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/BuilderEnhanced/DatabaseType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +24,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -38,24 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Scaler/LLD/DesignPatterns/src/BuilderEnhanced",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Scaler/LLD/DesignPatterns/src/BuilderEnhanced&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Builder" />
@@ -65,18 +73,18 @@
       <recent name="D:\Scaler\LLD\DesignPatterns\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.testDatabaseBuilder (1)">
-    <configuration name="DatabaseTest.testDatabaseBuilder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BackgroundObjectTest.testRegistry">
+    <configuration name="BackgroundObjectTest.testRegistry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BuilderEnhanced.*" />
+          <option name="PATTERN" value="Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BuilderEnhanced" />
-      <option name="MAIN_CLASS_NAME" value="BuilderEnhanced.DatabaseTest" />
-      <option name="METHOD_NAME" value="testDatabaseBuilder" />
+      <option name="PACKAGE_NAME" value="Prototype" />
+      <option name="MAIN_CLASS_NAME" value="Prototype.BackgroundObjectTest" />
+      <option name="METHOD_NAME" value="testRegistry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,8 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseTest.testDatabaseBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Builder.BuilderEnhanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BuilderEnhanced" />
+      <option name="MAIN_CLASS_NAME" value="Builder.BuilderEnhanced.DatabaseTest" />
+      <option name="METHOD_NAME" value="testDatabaseBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BackgroundObjectTest.testRegistry" />
         <item itemvalue="JUnit.DatabaseTest.testDatabaseBuilder (1)" />
         <item itemvalue="JUnit.DatabaseTest.testDatabaseBuilder" />
       </list>
@@ -114,7 +139,10 @@
       <option name="presentableId" value="Default" />
       <updated>1693847293856</updated>
       <workItem from="1693847297787" duration="6199000" />
-      <workItem from="1694105170876" duration="4424000" />
+      <workItem from="1694105170876" duration="4503000" />
+      <workItem from="1694188216623" duration="1647000" />
+      <workItem from="1694194796519" duration="1256000" />
+      <workItem from="1694268501970" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="Added Builder implementation">
       <option name="closed" value="true" />

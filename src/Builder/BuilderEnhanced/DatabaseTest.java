@@ -1,4 +1,4 @@
-package BuilderEnhanced;
+package Builder.BuilderEnhanced;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -18,5 +18,4 @@ public class DatabaseTest {
 
         Assertions.assertEquals(db.getName(), "testDb");
     }
-
 }

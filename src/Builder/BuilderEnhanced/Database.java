@@ -1,4 +1,4 @@
-package BuilderEnhanced;
+package Builder.BuilderEnhanced;
 
 import lombok.Getter;
 
