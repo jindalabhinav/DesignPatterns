@@ -56,19 +56,19 @@ No, multiple. For high-availability.
 | void pay(id, name, ..) | makePayment(id, amount) | makeOrder()      |
 | checkStatus(id)        | getSAtatus(id)          | verifyStatus(id) |
 
-Different request and response structures. Implementing them in the code 
+Different request and response structures. Implementing them in the code:
 
 ```Java
 makePayment() {
-  if (RP) {
+  if (RazorPay) {
     1. Convert to RP
     2. Call pay
     3. Convert the Response
   }
-  else if (PU) {
+  else if (PayU) {
     // same set of steps with diff flavour
   }
-
+  ...
 }
 ```
 
