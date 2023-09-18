@@ -5,43 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Builder implementation">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/BaseDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/CompressionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/Datasource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/DatasourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/FileDatasource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Flyweight/BulletRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Flyweight/BulletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Flyweight/BulletType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Flyweight/FlyingBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/Bitcoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/BitcoinManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/BitcoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/EmailConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/SMSConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/FourWheelerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/NavigationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/NavigatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/TwoWheelerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/OrderManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/OrderProcessorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/PaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/DarkButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/DarkRadio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/LightButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/LightRadio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/LightThemeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Radio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/ThemeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/ThemeFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/BuilderEnhanced/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/BuilderEnhanced/DatabaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/BuilderEnhanced/DatabaseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/BackgroundObjectRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/BackgroundObjectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/BackgroundType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/BackgrountObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/GraphicalObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adaptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adaptor/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,28 +57,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Scaler/LLD/DesignPatterns/src/BuilderEnhanced",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Scaler/LLD/DesignPatterns/src/BuilderEnhanced&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Structural.Facade" />
       <recent name="Structural.Flyweight" />
       <recent name="Structural.Adaptor" />
       <recent name="Builder" />
@@ -209,6 +193,8 @@
       <workItem from="1694268501970" duration="5474000" />
       <workItem from="1694446964353" duration="6408000" />
       <workItem from="1694619531856" duration="6168000" />
+      <workItem from="1694792368430" duration="7397000" />
+      <workItem from="1695051437760" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="Added Builder implementation">
       <option name="closed" value="true" />
