@@ -1,5 +1,20 @@
 # Design Patterns
 
+## Design Principles vs Design Patterns
+
+Design Principles: Just a Generic way to write code (SOLID principles, DRY, etc.)
+
+Design Patterns: Do people in defferent companies solve completely different problems? No, there will be overlap and only the business logic would be majorly different.
+
+- Database code
+- Authentication
+- Logging
+- Notifications
+
+This is the motivation behind design patterns. Four computer scientists, in the 90s, came together and gave solutions to some generic problems, which are still valid today.
+
+
+
 ## Types
 
 1. Creational
@@ -10,10 +25,7 @@
     | - | --------- | ------- | --------- | ------- |
     | Why | Single Object<br> Inconsistencies<br> Resource Utilization | Too many fields, complex constructors<br> Immutability<br> Global Validation | Object creation is expensive<br> Create Multiple Objects | When you want to create multiple different type of objects<br> Not using Constructor of Child classes (tight-coupling) |
     | Examples | Redux Store, Connection Pool, Logging | Whenever you see a class having a lot of fields, like Address | Game Development | Different types of Buttons/Databases<br> Abstract - Darl/Light Buttons, Dark/Light Radio Button |
-    | How | How: Lazy Initialization (Pros: creates object on demand, Cons: concurrency (need to implement thread safety)) |  | | Simple<br> 1. Product Interface<br> 2. Concrete Products<br> 3. Switch Case for Product Type (violates SRP, OCP) |
-    |  | How: Eager Initialization (Pros: Thread-safety, Cons: creates object on Built time, increases time and load) | | | Factory Method<br> 1. Product Interface<br> 2. Concrete Products<br> 3. Factory IOnterface<br> 4. Concreate Factories<br> Class Explosion but solves SRP, OCP |
-    |  | How: Double Check Logging | | | Abstract Factory (Family of Products)<br> 1. Product Interface<br> 2. Concrete Products<br> 3. Factory Interface (createButton(), createRadio())<br> 4.  |
-    | Steps | Steps:<br> 1. constructor hiding<br> 2. getInstance()<br> 3. Instance attribute (static Initializer)<br> 4. Double safe (if created -> return else create, store, return)  | Steps:<br> 1. Static inner class<br> 2. private constructor<br> 3. Create reference of Outer object in Inner<br> 4. Fluent Setters for method Chaining<br> 5. Build Method (creates, validates and returns the object) | 1. Cloneable Interface<br> 2. Implementing Cloneable (clone method, shallow/deep clones)<br> 3. Create Registry (store object types in Registry) | |
+    | How | **Lazy Initialization** (Pros: creates object on demand, Cons: concurrency (need to implement thread safety))<br><br> **Eager Initialization** (Pros: Thread-safety, Cons: creates object on Built time, increases time and load)<br><br> **Double Check Logging**<br><br> **Steps:**<br> 1. constructor hiding<br> 2. getInstance()<br> 3. Instance attribute (static Initializer)<br> 4. Double safe (if created -> return else create, store, return) | **Steps:**<br> 1. Static inner class<br> 2. private constructor<br> 3. Create reference of Outer object in Inner<br> 4. Fluent Setters for method Chaining<br> 5. Build Method (creates, validates and returns the object) | **Steps:**<br> 1. Cloneable Interface<br> 2. Implementing Cloneable (clone method, shallow/deep clones)<br> 3. Create Registry (store object types in Registry) | **Simple**<br> 1. Product Interface<br> 2. Concrete Products<br> 3. Switch Case for Product Type (violates SRP, OCP)<br><br> **Factory Method**<br> 1. Product Interface<br> 2. Concrete Products<br> 3. Factory IOnterface<br> 4. Concreate Factories<br> Class Explosion but solves SRP, OCP<br><br>**Abstract Factory** (Family of Products)<br> 1. Product Interface<br> 2. Concrete Products<br> 3. Factory Interface (createButton(), createRadio())<br> 4.  |
 
 2. Structural
 
