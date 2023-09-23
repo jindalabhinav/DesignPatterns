@@ -1,4 +1,4 @@
-package AbstractFactory;
+package Creational.Factory.AbstractFactory;
 
 // Step 3 - Factory Interface
 public interface ThemeFactory {

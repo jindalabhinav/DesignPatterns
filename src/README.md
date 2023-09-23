@@ -13,8 +13,6 @@ Design Patterns: Do people in defferent companies solve completely different pro
 
 This is the motivation behind design patterns. Four computer scientists, in the 90s, came together and gave solutions to some generic problems, which are still valid today.
 
-
-
 ## Types
 
 1. Creational
