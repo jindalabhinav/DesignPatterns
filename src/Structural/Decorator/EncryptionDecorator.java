@@ -4,7 +4,7 @@ package Structural.Decorator;
 
 // Why not directly implement Datasource? Because we also need the nextLayer which can only come from an abstract class.
 public class EncryptionDecorator extends BaseDecorator {
-    public EncryptionDecorator(Datasource nextLayer) {
+    public EncryptionDecorator(Database nextLayer) {
         super(nextLayer);
     }
 

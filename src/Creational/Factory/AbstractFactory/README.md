@@ -6,8 +6,6 @@
 
 #### Diwali Package
 
-Options:
-
 | Chocolate  | Vanilla  | Bhujia   |
 | ---------- | -------- | -------- |
 | Oreo       | Icecream | Aloo     |
@@ -73,4 +71,6 @@ Steps:
       - Dark Theme Factory (for creating a Dark Button/Radio)
       - Light Theme Factory (for creating a Light Button/Radio)
 
-If tomorrow we need a SuperDarkTheme, we just need to add some classes
+If tomorrow we need a SuperDarkTheme, we just need to add some classes.
+
+The issue of Class Explosion still persists.

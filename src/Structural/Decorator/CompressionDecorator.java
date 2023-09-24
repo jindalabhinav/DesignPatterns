@@ -1,7 +1,7 @@
 package Structural.Decorator;
 
 public class CompressionDecorator extends BaseDecorator {
-    public CompressionDecorator(Datasource nextLayer) {
+    public CompressionDecorator(Database nextLayer) {
         super(nextLayer);
     }
 

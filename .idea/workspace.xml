@@ -4,41 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Builder implementation">
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/DarkButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/DarkThemeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/ButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/ButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/RoundBtn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/RoundButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/ScreenSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/SquareButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/SquareButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/ButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/ButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/RoundBtn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/ScreenSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/SquareButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Singleton/DoubeCheckedLocking/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Singleton/EagerInitialization/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Singleton/Simple/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Singleton/Simple/ConnectionPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Singleton/ThreadSafe/ConnectionPool.java" afterDir="false" />
+    <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Singleton Pattern implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/Button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/DarkButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/DarkRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/DarkRadio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/LightButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/LightButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/LightRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/LightRadio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/LightThemeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/LightThemeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/ThemeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/ThemeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/ThemeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/ThemeFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/DatabaseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/DatabaseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/DatabaseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/DatabaseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/DarkThemeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/DarkThemeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/ThemeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/ThemeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/ButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/ButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundObjectRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundObjectRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/BackgrountObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/BackgroundObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/GraphicalObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/GraphicalObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Adaptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adaptor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/BaseDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/BaseDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/CompressionDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/CompressionDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/DatasourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/FileDatasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/FileDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Facade/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Facade/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Scaler/LLD/DesignPatterns/src/Creational/Factory/AbstractFactory",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Scaler/LLD/DesignPatterns/src/Creational/Factory/AbstractFactory&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Structural.Facade" />
@@ -121,39 +118,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionPoolTest.testSingleInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ButtonTest.testSquareButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Creational.Singleton.Simple.*" />
+          <option name="PATTERN" value="Creational.Factory.SimpleFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Creational.Singleton.Simple" />
-      <option name="MAIN_CLASS_NAME" value="Creational.Singleton.Simple.ConnectionPoolTest" />
-      <option name="METHOD_NAME" value="testSingleInstance" />
+      <option name="PACKAGE_NAME" value="Creational.Factory.SimpleFactory" />
+      <option name="MAIN_CLASS_NAME" value="Creational.Factory.SimpleFactory.ButtonTest" />
+      <option name="METHOD_NAME" value="testSquareButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testDatabaseBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Builder.BuilderEnhanced.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BuilderEnhanced" />
-      <option name="MAIN_CLASS_NAME" value="Builder.BuilderEnhanced.DatabaseTest" />
-      <option name="METHOD_NAME" value="testDatabaseBuilder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatasourceTest.testEncryption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -162,29 +143,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Structural.Decorator" />
-      <option name="MAIN_CLASS_NAME" value="Structural.Decorator.DatasourceTest" />
-      <option name="METHOD_NAME" value="testEncryption" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Structural.Adaptor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Structural.Adaptor" />
-      <option name="MAIN_CLASS_NAME" value="Structural.Adaptor.PaymentProviderTest" />
+      <option name="MAIN_CLASS_NAME" value="Structural.Decorator.DatabaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThemeFactoryTest.testLightTheme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testEncryptionAndCompression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Structural.Decorator" />
+      <option name="MAIN_CLASS_NAME" value="Structural.Decorator.DatabaseTest" />
+      <option name="METHOD_NAME" value="testEncryptionAndCompression" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThemeFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -194,8 +175,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Creational.Factory.AbstractFactory" />
       <option name="MAIN_CLASS_NAME" value="Creational.Factory.AbstractFactory.ThemeFactoryTest" />
-      <option name="METHOD_NAME" value="testLightTheme" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in DesignPatterns" />
-        <item itemvalue="JUnit.ThemeFactoryTest.testLightTheme" />
-        <item itemvalue="JUnit.ConnectionPoolTest.testSingleInstance" />
-        <item itemvalue="JUnit.DatasourceTest.testEncryption" />
-        <item itemvalue="JUnit.PaymentProviderTest" />
+        <item itemvalue="JUnit.DatabaseTest.testEncryptionAndCompression" />
+        <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.ThemeFactoryTest" />
+        <item itemvalue="JUnit.ButtonTest.testSquareButton" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +207,8 @@
       <workItem from="1694619531856" duration="6168000" />
       <workItem from="1694792368430" duration="7397000" />
       <workItem from="1695051437760" duration="4223000" />
-      <workItem from="1695478036831" duration="11810000" />
+      <workItem from="1695478036831" duration="12038000" />
+      <workItem from="1695546303027" duration="9682000" />
     </task>
     <task id="LOCAL-00001" summary="Added Builder implementation">
       <option name="closed" value="true" />
@@ -242,6 +223,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Builder implementation" />

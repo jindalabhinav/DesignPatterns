@@ -1,4 +1,4 @@
-package Builder.BuilderEnhanced;
+package Creational.Builder.BuilderEnhanced;
 
 public enum DatabaseType {
     MY_SQL,

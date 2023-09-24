@@ -23,7 +23,7 @@ public class ButtonTest {
     @Test
     void testSquareButton() {
         Button button = ButtonFactory.createButton(ScreenSize.DESKTOP, 10.0, null, 1.0);
-        assertTrue(button instanceof RoundBtn, "If the screen size is of a phone, the btn should be a square button");
+        assertTrue(button instanceof SquareButton, "If the screen size is of a phone, the btn should be a square button");
 
     }
 }
