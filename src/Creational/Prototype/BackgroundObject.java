@@ -1,4 +1,4 @@
-package Prototype;
+package Creational.Prototype;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @Setter
 @Getter
-public class BackgrountObject implements GraphicalObject {
+public class BackgroundObject implements GraphicalObject {
 
     private Double x;
     private Double y;
@@ -21,10 +21,10 @@ public class BackgrountObject implements GraphicalObject {
     private Double height;
     private BackgroundType type;
 
-    @Setter(AccessLevel.NONE) // Do not create a setter
+    @Setter(AccessLevel.NONE) // Do not create a setter, this is derived
     private List<Double> pixels = new ArrayList<>();
 
-    public BackgrountObject(Double x, Double y, Double width, Double height, BackgroundType type) {
+    public BackgroundObject(Double x, Double y, Double width, Double height, BackgroundType type) {
         this.x = x;
         this.y = y;
         this.width = width;
@@ -35,7 +35,7 @@ public class BackgrountObject implements GraphicalObject {
     }
 
     // Copy constructor (Shallow)
-    private BackgrountObject(BackgrountObject ref) {
+    private BackgroundObject(BackgroundObject ref) {
         this.x = ref.x;
         this.y = ref.y;
         this.width = ref.width;
@@ -51,7 +51,7 @@ public class BackgrountObject implements GraphicalObject {
 
     @Override
     // Creating pixels everytime will be expensive, and we'll use the prototype pattern to clone them
-    public BackgrountObject cloneObject() {
-        return new BackgrountObject(this);
+    public BackgroundObject cloneObject() {
+        return new BackgroundObject(this);
     }
 }

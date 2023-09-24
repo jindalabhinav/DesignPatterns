@@ -7,7 +7,7 @@ public class ThemeFactoryTest {
 
     @Test
     public void testLightTheme() {
-        // With this factory of factory, it's enforeced that wer get black theme components
+        // With this factory of factory, it's enforced that we'll get black theme components
         ThemeFactory lightThemeFactory = new LightThemeFactory();
 
         Button button = lightThemeFactory.createButton(0.5, 10.0, 5.0);

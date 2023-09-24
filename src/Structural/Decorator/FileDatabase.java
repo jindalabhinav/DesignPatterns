@@ -1,7 +1,7 @@
 package Structural.Decorator;
 
 // Step 2 - Create concrete product class
-public class FileDatasource implements Datasource {
+public class FileDatabase implements Database {
     @Override
     public String read() {
         return "Base";

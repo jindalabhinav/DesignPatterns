@@ -4,81 +4,92 @@
 
 - Cold Weather
   
-  Imaginme it's very cold outside and we come back and wear a jacket.
-  We come insode and wear a jacvket
-  we don't change as a person, but we've added another layer of functionality
-  Like a wrapper.
+  - Imagine it's very cold outside and we come back and wear a jacket.
+  - Even though we've worn a jacket, we don't change as a person, we've just added another layer of functionality.
+  - Like a wrapper.
 
 - Ice Cream
   
-  We start at the cone (bottom), we add a vanilla there. At the current stage is it an ince cream?
-  Yes, although we don't have much but it still has cone and ince cream
-  Now we add some black-current on top of it.
-  We're not changing the cone, but rather we just added more flovors on top, without changing the existing functionality
-  Now we add Strawberry on top (still the same cone).
+  - We start at the bottom of the cone, and we add some vanilla there. At its current state, is it an ice cream?
+  - Yes, although we don't have much, but it still has cone and ice-cream.
+  - Now we add some black-current on top of it.
+  - We're not changing the cone, but rather just adding more flavors on top, without changing the existing functionality.
+  - Now we add Strawberry on top (still the same cone).
 
-Highly used in front-end applications.
+## Motivation
 
-Whenever we want to add some functionality (layer of jacket, layer of ice-cream), we add on top without changing the existing functionality.
+`Highly used in front-end applications.`
 
-- Database
-  Now let's say we have a Db class, we have 2 Methods
+Whenever we want to add some functionality to something (layer of jacket, layer of ice-cream), we add on top, without changing the existing functionality.
 
-  - Read()
-    - We can get the data from Db
-  - Write()
-    - Write data to the Db
+`Database`
 
-  Now the db table has a row with data. Read gives me that data, write changes that read data and stores it back to Db. But eventually we run out of space as the application took off, and I don't want to autoscale, what else can we do?
+Now let's say we have a Db class, having 2 methods:
 
-  - Probably **compress** it to make it smaller
-  - If we ever get the data audited, they come with a list of items to follow. Like **encryption** is required. User shouldn't be able to look at the whole Db.
+- Read()
+  - We can get the data from Db
+- Write()
+  - Write data to the Db
 
-  We need 2 new fucntionalities, compress & encrypt.
+Database tables have rows with data. `Read()` gives us that data, and `Write()` changes that read data and stores it back to Db. But eventually we run out of space as the application took off, and we don't want to auto-scale yet, what else can we do?
 
-  ```Java
-  Database() {
-    write() {
-      encrypt();
-      compress();
-      write();
-    }
+- Probably `compress` it to make it smaller
+- Let's say we get the data audited, they come with a list of items to follow. Like `encryption` is required. User shouldn't be able to look at the whole Db.
+
+Now we need 2 new functionalities, compress & encrypt.
+
+```Java
+Database() {
+  write() {
+    encrypt();
+    compress();
+    write();
   }
-  ```
+}
+```
 
-  Both SRP and OCP is violated here. Tomorrow if we need to do another thing with the data, we'll have to again modify the method.
+Both SRP and OCP is being violated here. Tomorrow if we need to do another thing with the data, we'll have to again modify the method.
 
-  How do we structure this?
+`How do we structure this?`
 
-  We make use of the Decorator Pattern, it allows us to add functionality to our current system, without modifying the existing functionality.
+We make use of the `Decorator Pattern`, it allows us to add functionality to our current system, without modifying the existing functionality.
 
-  For Database, I'll create a Wrapper around it <br>
-  ( Compress ( Encrypt ( Database ) ) )
+For Database, we'll create a `Wrapper` around it <br>
+`( Compress ( Encrypt ( Database ) ) )`
 
-  Database Class (base class)
-  - EncryptedDatabase
-  - CompressedDatabase
-  - EncryptedAndCompressedDatabase
+But when we need different enhancements to the Database Class (base class), we'll need different wrappers:
 
-  This leads to class explosion.
+- EncryptedDatabase
+- CompressedDatabase
+- EncryptedAndCompressedDatabase
+
+This leads to class explosion.
 
 ## Questions
 
-    A Db class currently has read and write methods. How do we create a wrapper around it? We might add a wrapper class around it, which implements the same methods, nut does it override the parent methods?
+`A Db class currently has read and write methods. How do we create a wrapper around it? We might add a wrapper which implements the same methods, but does it override the parent methods?`
 
-  No, the external layer will do it's work (like encrypt) and then call the parent method (like write).
+No, the external layer will do it's work (like encrypt) and then call the parent method (like write).
 
-  Example: ( Compress - write() { // does compression and calls super.write() } ( Encrypt - write() { // does encryption and calls super.write() } ( Database - write() ) ) )
+Example:
 
-  So the additional layers will just do it's worl and pass it to the parent class.
+`(
+  Compress - write() { // does compression and calls super.write() } (
+    Encrypt - write() { // does encryption and calls super.write() } (
+      Database - write() // actual write to Db
+    )
+  )
+)`
 
-    What methods will the layer have?
+So the additional layers will just do it's worl and pass it to the parent class.
 
-  They'll have methods with the same signatures, and will inherit from the parent class.
+`What methods will the layer have?`
+
+They'll have methods with the same signatures, and will inherit from the parent class.
 
 ## Implementation
 
-Steps:
+`Steps:`
 
 1. Product interface
    
@@ -125,5 +136,6 @@ Steps:
    }
    ```
 
-
    All Decorators will extend the abstract Decorator class
+
+Checkout the actual implementation for better understanding.

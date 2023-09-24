@@ -1,4 +1,4 @@
-package Prototype;
+package Creational.Prototype;
 
 public enum BackgroundType {
     TREE,

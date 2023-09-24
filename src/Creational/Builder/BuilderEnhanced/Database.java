@@ -1,4 +1,4 @@
-package Builder.BuilderEnhanced;
+package Creational.Builder.BuilderEnhanced;
 
 import lombok.Getter;
 
@@ -69,11 +69,21 @@ public class Database {
             }
 
             /*
-                The code snippet below is still necessary because it ensures that a new, separate instance of the Database class is created each time the build method is called. Here's why this is important:
-                Immutability: By returning a new object each time from the build method, you ensure that the constructed Database object cannot be modified externally once it's created. This is crucial for maintaining data integrity and preventing unexpected changes to the object's state.
-                Thread Safety: If multiple threads are concurrently calling the build method, each thread gets its own separate instance of the Database object, avoiding potential race conditions or shared state issues.
-                Clear Intent: Returning a fresh object from the build method clearly communicates that the purpose of the method is to create a new object, not modify an existing one.
-                Validation: In this example, we have a validation check in the isValid method. By creating a new object in the build method, we ensure that the object is only constructed if it meets the specified validation criteria.
+                The code snippet below is still necessary because it ensures that a new, separate instance of the
+                Database class is created each time the build method is called. Here's why this is important:
+
+                Immutability : By returning a new object each time from the build method, you ensure that the
+                               constructed Database object cannot be modified externally once it's created.
+                               This is crucial for maintaining data integrity and preventing unexpected changes
+                               to the object's state.
+                Thread Safety: If multiple threads are concurrently calling the build method, each thread gets
+                               its own separate instance of the Database object, avoiding potential race conditions
+                               or shared state issues.
+                Clear Intent : Returning a fresh object from the build method clearly communicates that the purpose
+                               of the method is to create a new object, not modify an existing one.
+                Validation   : In this example, we have a validation check in the isValid method. By creating a new
+                               object in the build method, we ensure that the object is only constructed if it meets
+                               the specified validation criteria.
              */
             Database db = new Database();
             db.name = database.name;

@@ -17,12 +17,12 @@ class OrderManagement {
 }
 ```
 
-Such a simple task consists of a lot of such steps. All these methods wherever we implement them might be in different class.
+Such a simple task consists of a lot of such steps. All these methods wherever we implement them might be in different classes.
 
 - Inventory Service
 - Payment Service
 
-OrderManagement will have to depend on all such classes, and it's becoming a monster method. Violates SRP & OCP.
+OrderManagement will have to depend on all such classes, and it's becoming a monster method. Violating SRP & OCP.
 
 ```Java
 class OrderManagement {
@@ -40,11 +40,11 @@ It's not:
 - Reusable
   - To make use of it again, we'll have to copy all this code again at another place.
 - Testable
-  - these dependencies might have dependencies of its own and we'll have to build all of that
+  - these dependencies might have dependencies of its own, and we'll have to build all of that.
 
-**Solution**
+## Solution
 
-*Facade Patten* - Hide the complicated implementation behind an interface.
+`Facade Pattern` - Hide the complicated implementation behind an interface.
 
 ```Java
 interface OrderProcessor { // this is the Facade
@@ -52,7 +52,9 @@ interface OrderProcessor { // this is the Facade
 }
 
 class OrderProcessorConcrete implements OrderProcessor {
-  process();
+  process() {
+    // all the complicated business logic, hidden behind an interface
+  }
 }
 
 class OrderManagement {
@@ -64,4 +66,4 @@ class OrderManagement {
 }
 ```
 
-The only thing we've done is we've moved it t o a different place, it still hasn't solved SRP or OCP.
+The only thing we've done with this is, we've moved it to a different place, it still hasn't solved SRP or OCP.
