@@ -40,7 +40,7 @@ In a responsive website, these objects styling might be different for a Desktop,
 
 > I should not depend on implementation classes
 
-Whenever we try to create an object, we need to reduce the usage of a subclass. We'll probably be using a 3rd party library which returns us the Btn let's say. If we're making use of the implementation methods of that library, any changed in those library methods, might create issues in your code.
+Whenever we try to create an object, we need to reduce the usage of a subclass. We'll probably be using a 3rd party library which returns us the Btn let's say. If we're making use of the implementation methods of that library, any changes in those library methods, might create issues in your code.
 
 The source cause of this problem is that we're making use of the implementation class (concrete classes). That's why in Java we say code to the interface, to introduce loose coupling. 
 
