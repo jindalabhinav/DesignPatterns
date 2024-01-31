@@ -4,11 +4,9 @@
 
 ### Assignment Given in College
 
-- One Assignment --> Chatur completes it (heavy-lifting) --> Others Copy and Modify it
-
-### Publishing Research Papers
-
-- One person creates a research paper (heavy-lifting) --> Others Copy and Modify a little bit
+- Publishing Research Papers
+- One person creates a research paper  (heavy-lifting)
+- Others Copy and Modify a little bit
 
 ## Motivation
 
@@ -37,25 +35,34 @@ In game development, there are two kinds of objects:
 
 #### Creating a Prototype
 
-```java
-class BackgroundObject {
-   // class attributes
-}
-
-// Cloneable interface
-interface Cloneable {
-   BackgroundObject clone();
-}
-
-// Implement the interface
-class BackgroundObject implements Cloneable {
-   // class attributes
-
-   BackgroundObject clone() {
-      // returns a cloned object
+   ```Java
+   class BackgroundObject {
+      // class attributes
    }
-}
-```
+   ```
+
+1. Create a Cloneable Interface
+
+   ```Java
+   // this is a functional interface (contains only 1 method)
+   interface Cloneable {
+      BackgroundObject clone();
+   }
+   ```
+
+2. Implement this Interface
+
+   ```Java
+   class BackgroundObject implements Cloneable {
+      // class attributes
+
+      BackgroundObject clone() {
+        // returns a cloned object
+      }
+   }
+   ```
+
+3. Create a Prototype, Clone it, and Modify it as needed
 
 #### *What's Cloning?*
 
@@ -80,6 +87,8 @@ It simply means copying an object
 
 Now that we have a prototype, we need a place to store it and fetch it when needed. The Registry is essentially a wrapper around a `Map<Type, BackgroundObject>`.
 
+A good data structure for the same would be a Map<Type, BackgroundObject>, and registry is essentially a wrapper around this Map.
+
 ```Java
 // Place to store objects
 class Registry {
@@ -91,4 +100,4 @@ class Registry {
 }
 ```
 
-This class, although not an extensive design pattern, is useful not just in the Prototype Pattern but also in other scenarios like the Flyweight Pattern, Observer Pattern, Command Pattern, etc.
+This is not exactly an extensive design pattern, but rather just a simple class which is not just useful in Prototype Pattern, but in other scenarios as well like the Flyweight Pattern, Observer Pattern, Commmand Pattern, etc.
