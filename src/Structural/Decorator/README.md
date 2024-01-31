@@ -39,7 +39,7 @@ Database tables have rows with data. `Read()` gives us that data, and `Write()` 
 Now we need 2 new functionalities, compress & encrypt.
 
 ```Java
-Database() {
+class Database {
   write() {
     encrypt();
     compress();
@@ -81,7 +81,7 @@ Example:
   )
 )`
 
-So the additional layers will just do it's worl and pass it to the parent class.
+So the additional layers will just do it's work and pass it to the parent class.
 
 `What methods will the layer have?`
 

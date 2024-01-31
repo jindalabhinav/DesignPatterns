@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Bill Pugh Singleton, Class Diagrams">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Behavioural/Observer/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Builder/BuilderEnhanced/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/package.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Factory/SimpleFactory/package.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/Singleton/BillPughSingleton/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Adaptor/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Decorator/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Facade/ClassDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Flyweight/package.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioural/Observer/BitcoinManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Observer/BitcoinManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioural/Observer/BitcoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Observer/BitcoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioural/Observer/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Observer/Publisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Behavioural/Observer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Observer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioural/Strategy/NavigatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/NavigatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioural/Strategy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Strategy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/AbstractFactory/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/ButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Factory/FactoryMethod/ButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Scaler/LLD/DesignPatterns/src/Creational/Singleton",
+    "last_opened_file_path": "D:/Scaler/LLD/PracticeDesignPatterns",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +84,7 @@
       <recent name="Creational.Singleton.EagerInitialization" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NavigatorTest.testBullet">
+  <component name="RunManager" selected="JUnit.BitcoinTest.updatePrice">
     <configuration name="All in DesignPatterns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,17 +108,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BitcoinTest.updatePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Structural.Decorator.*" />
+          <option name="PATTERN" value="Behavioural.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Structural.Decorator" />
-      <option name="MAIN_CLASS_NAME" value="Structural.Decorator.DatabaseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Behavioural.Observer" />
+      <option name="MAIN_CLASS_NAME" value="Behavioural.Observer.BitcoinTest" />
+      <option name="METHOD_NAME" value="updatePrice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BitcoinTest.updatePrice" />
         <item itemvalue="JUnit.NavigatorTest.testBullet" />
         <item itemvalue="JUnit.BitcoinTest" />
         <item itemvalue="JUnit.All in DesignPatterns" />
         <item itemvalue="JUnit.DatabaseTest.testEncryptionAndCompression" />
-        <item itemvalue="JUnit.DatabaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +189,7 @@
       <workItem from="1705425953076" duration="494000" />
       <workItem from="1705480948206" duration="1280000" />
       <workItem from="1706040804972" duration="1113000" />
-      <workItem from="1706726864142" duration="1113000" />
+      <workItem from="1706726864142" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="Added Builder implementation">
       <option name="closed" value="true" />
@@ -214,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694111301963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Bill Pugh Singleton, Class Diagrams">
+      <option name="closed" value="true" />
+      <created>1706728112755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706728112755</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -28,6 +28,7 @@ We wait for the price to drop to buy the bitcoin.
 public BitcoinManager {
   Bitcoin btc;
 
+  // called when there is a price update
   setPrice(price) {
     if (btc.price - price > 5) {
       sendEmail();

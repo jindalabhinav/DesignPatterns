@@ -2,7 +2,7 @@ package Structural.Decorator;
 
 // Step 4 - Create concrete decorators
 
-// Why not directly implement Datasource? Because we also need the nextLayer which can only come from an abstract class.
+// Why not directly implement Database? Because we also need the nextLayer which can only come from an abstract class.
 public class EncryptionDecorator extends BaseDecorator {
     public EncryptionDecorator(Database nextLayer) {
         super(nextLayer);

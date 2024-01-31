@@ -7,8 +7,8 @@ public class NavigatorTest {
     @Test
     public void testBullet() {
         // HSR to Indira Nagar
-        NavigationStrategy strategy = new TwoWheelerStrategy();
-        Navigator navigator = new Navigator(strategy); // Constructor Injection
+        NavigationStrategy bikeStrategy = new TwoWheelerStrategy();
+        Navigator navigator = new Navigator(bikeStrategy); // Constructor Injection
         System.out.println(navigator.navigate("HSR", "Indira Nagar"));
 
         // Car

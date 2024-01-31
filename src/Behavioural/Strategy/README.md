@@ -106,7 +106,7 @@ Steps:
     // Two-wheeler
     // Car
     // Bus
-    class ClassStrategy implements NavigationStrategy {
+    class CarStrategy implements NavigationStrategy {
         @Override
         Double navigate(A, B) {
             ...
@@ -118,9 +118,9 @@ Steps:
 
     ```Java
     class Navigator {
-      NavigatorStrategy strategy;
+      NavigationStrategy strategy;
 
-      Navigator(NavigatorStrategy strategy) {
+      Navigator(NavigationStrategy strategy) {
         this.strategy = strategy;
       }
 
