@@ -1,13 +1,13 @@
 # Strategy Pattern
 
-## Analogies
+## Motivation
 
 ### Google Maps
 
-Let's say you're walking and use navigation to reach some place.
+Let's say you're walking and using navigation to reach some place.
 
 ```Java
-class Maps {
+class Navigator {
   navigate(x, y) {
     calculateDistance();
     calculateDurationOfWalking();
@@ -15,50 +15,52 @@ class Maps {
 }
 ```
 
-Aaprt from walking, users might want to get Car, Bus, Train navigation as well.
+Apart from walking, users might want to get Car, Bus, and Train navigation as well.
 
 ```Java
-Navigator {
+class Navigator {
   Mode mode; // enum
 
   navigate() {
     switch(mode) {
-      BIKE:
-      CAR:
+      case BIKE:
+      case CAR:
       ......
     }
   }
 }
 ```
 
-This violates SRP, OCP. What's a better way to implement this?
+This violates SRP and OCP.
 
-Use inheritence,
+`What's a better way to implement this?`
 
-Navigator
+Maybe use inheritance, meaning, following classes extend the Navigator class
 
 - Walk
 - Car
 - Bike
 
-Now the use might switch between these different modes, inheritence won't help us here, it's unnecessary. The only thing changing is the input, for an input change, changing classes would be wasteful.
+Now the user might switch between these different modes. The only thing changing would be the input, and for an input change, creating new objects of different classes everytime, or keeping them in memory would be wasteful.
 
 This is where we can use the *Strategy Abstraction*. It'll give us a way to use just 1 class but change strategies.
 
-In out Navigator class, which implementation of the calss to put? Bike?Car?Walking?
+In our Navigator class, which implementation of the child class to Sub-type? Bike/Car/Walking?
 
 That's why the implementation of the Navigator class should be abstract and the child class would decide.
 
-We want to solve the problem of code duplication for different modews of transport (child classes of Navigator abstract class).
+We want to solve the problem of code duplication for different modes of transport (child classes of Navigator abstract class).
 
-Let's create a Utility class NavigatorUtility and put all the common code there (navogateBudm, navigateCar, etc. and have the child class call them). But, this ends up violating SRP, because we end up putting anything and everything there. This is where strategy would help us. (using utility method, we'll have to change concrete implementation if the logic behind changes).
+Let's create a Utility class called NavigatorUtility, and put all the common code there (navigateBus, navigateCar, etc.), and have the child classes call them. But, this ends up violating SRP, because we're putting anything and everything there. This is where strategy would help us. (using utility method, we'll also have to change concrete implementation if the logic behind changes).
 
-Tax Calculation (different algorithms)
+## Tax Calculation
+
+This again has different algorithms:
 
 - Olg regime
 - New Regime
 
-Strategy Pattern gives us a way to encapsulate different algorithms.
+`Strategy Pattern gives us a way to encapsulate different algorithms.`
 
 ## Pre-requisite
 
@@ -103,10 +105,13 @@ Steps:
     ```Java
     // Two-wheeler
     // Car
-    class ClassStrategy implements NavigationStrategy {
-
-    }
     // Bus
+    class ClassStrategy implements NavigationStrategy {
+        @Override
+        Double navigate(A, B) {
+            ...
+        }
+    }
     ```
 
 3. Context Class (Has-A relationship)
@@ -128,5 +133,5 @@ Steps:
 4. Use Dependency Injection
 
     ```Java
-    var nav = new Navigator(new CarSrategy());
+    var nav = new Navigator(new CarStrategy());
     ```

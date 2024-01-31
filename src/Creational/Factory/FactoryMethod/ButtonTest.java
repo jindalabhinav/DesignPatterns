@@ -26,12 +26,12 @@ public class ButtonTest {
 
 /*
     WHY the Factory Pattern?
-    1. SRP and OCP ==> Done
-    2. Complex construction logic ==> Done
-    3. Reduce usage of Subclasses ==> Done (now if library changes the class name of RoundBtn to RoundButton, client-code of construction won't break)
+    1. SRP and OCP ==> Done (adding more products doesn't require changing the Factory if-else logic, instead, a new Concrete Factory class will be implemented for the new Product)
+    2. Complex construction logic ==> Done (Factory class will be injected)
+    3. Reduce usage of Subclasses ==> Done (now if library changes the class name of RoundBtn to RoundButton,
+    client-code of construction won't break)
 
     Issues still existing?
-    1. Parameter Explosion (different kinds of products need different attributes, and we need to pass all of them to the factory)
-        - Although, this is can be solved using Builder pattern
-    2. SRP and OCP violation still persists, albeit on the library code
+    1. Class Explosion
+    2. SRP and OCP violation resolved
 */

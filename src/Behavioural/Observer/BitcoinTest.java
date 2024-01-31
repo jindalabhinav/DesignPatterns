@@ -11,6 +11,7 @@ public class BitcoinTest {
     public void setUp() {
         Bitcoin bitcoin = new Bitcoin(100.0);
         bitcoinManager = new BitcoinManager(bitcoin);
+        // This way we're setting the consumers for Bitcoin Price Triggers
         bitcoinManager.addConsumer(new EmailConsumer());
         bitcoinManager.addConsumer(new SMSConsumer());
     }

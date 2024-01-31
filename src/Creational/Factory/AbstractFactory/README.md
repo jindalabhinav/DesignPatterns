@@ -46,13 +46,13 @@ Steps:
 
     Button (interface)
 
-      - Dark Button
-      - Light Button
+      - Dark Button (concrete class)
+      - Light Button (concrete class)
 
     Radio (interface)
 
-      - Dark Radio
-      - Light Radio
+      - Dark Radio (concrete class)
+      - Light Radio (concrete class)
 
 3. Factory Interface (Factory of Factories)
 
