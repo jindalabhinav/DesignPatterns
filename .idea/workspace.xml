@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9598d8-9f78-4e4b-8bdb-be3eeaa5f523" name="Changes" comment="Added Bill Pugh Singleton, Class Diagrams">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Command/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Command/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Command/CreateUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Command/SettleUpCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioural/Observer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioural/Observer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/EncryptionDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Scaler/LLD/PracticeDesignPatterns",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Scaler/LLD/PracticeDesignPatterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Structural.Facade" />
@@ -189,7 +189,8 @@
       <workItem from="1705425953076" duration="494000" />
       <workItem from="1705480948206" duration="1280000" />
       <workItem from="1706040804972" duration="1113000" />
-      <workItem from="1706726864142" duration="2971000" />
+      <workItem from="1706726864142" duration="3570000" />
+      <workItem from="1707242510588" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="Added Builder implementation">
       <option name="closed" value="true" />
